@@ -1,0 +1,97 @@
+nav {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  
+  height: 72px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+*{
+  margin : 0;
+}
+:root{
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  color: #2e2e2e;
+  
+}
+ body{
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color:azure
+ }
+
+ nav button {
+  background-color: red; /* Change button background color */
+  color: white; /* Change button text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding */
+  margin: 0 10px; /* Add margin */
+  cursor: pointer; 
+  margin-left: 40px;/* Change cursor to pointer on hover */
+}
+
+nav button:hover {
+  background-color: #0056b3; /* Change button background color on hover */
+}
+.hero {
+  display: flex;
+  justify-content: center; /* Center the Hero component horizontally */
+  align-items: center; /* Center the Hero component vertically */
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto; 
+  margin-top: 30px;
+  margin-left:120px;/* Center the Hero component horizontally */
+}
+
+.hero-content {
+  flex: 1; /* Allow the content to grow and take remaining space */
+  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  /* Align text content to center */
+}
+
+.hero-image {
+  flex: 1;
+  margin-left: 30px; /* Allow the image to grow and take remaining space */
+}
+
+/* Optional styling */
+.hero-content h1 {
+  font-size: 4rem; /* Adjust font size as needed */
+}
+
+.hero-content p {
+  font-size: 1rem; 
+  margin-top: 10px;
+  /* Adjust font size as needed */
+}
+
+.hero-btn {
+  margin-top: 20px;
+   /* Add spacing between buttons and text */
+}
+
+.hero-btn button {
+  margin-right: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  color: white;
+  background-color: slategray; /* Add spacing between buttons */
+}
+.shop img{
+  margin-left: 10px;
+  margin-top:20px;
+}
